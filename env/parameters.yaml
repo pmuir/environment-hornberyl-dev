@@ -6,13 +6,13 @@ dashboardAuthOrg: arcalos-dashboard
 dashboardAuthSecret: vault:hornberyl:dashboardAuthSecret
 dashboardGrpchost: dex.jx
 enableDocker: false
+parentDNSZone: jxaas-club-parent
+parentDomain: jxaas.club
+parentProject: staging-arcalos-domain-name
 pipelineUser:
   email: arcalos-admin@googlegroups.com
   token: vault:hornberyl/pipelineUser:token
   username: arcalos-bot
 prow:
   hmacToken: vault:hornberyl/prow:hmacToken
-parentDomain: jxaas.club
-parentProject: staging-arcalos-domain-name
-parentDNSZone: jxaas-club-parent
-tenantServiceDBInstance: "staging-tenant-service-db:us-east1:staging-jx-tenant-db=tcp:5432"
+tenantServiceDBInstance: staging-tenant-service-db:us-east1:staging-jx-tenant-db=tcp:5432
