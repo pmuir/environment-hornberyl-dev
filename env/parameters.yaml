@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:hornberyl/adminUser:password
+  username: admin
+dashboardAuthID: vault:hornberyl:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:hornberyl:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:hornberyl/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:hornberyl/prow:hmacToken
