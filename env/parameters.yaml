@@ -12,3 +12,7 @@ pipelineUser:
   username: arcalos-bot
 prow:
   hmacToken: vault:hornberyl/prow:hmacToken
+parentDomain: jxaas.club
+parentProject: staging-arcalos-domain-name
+parentDNSZone: jxaas-club-parent
+tenantServiceDBInstance: "staging-tenant-service-db:us-east1:staging-jx-tenant-db=tcp:5432"
