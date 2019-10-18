@@ -168,7 +168,7 @@ ui:
 {{- end }}
 {{- end }}
     domain: "{{ .Requirements.ingress.domain }}"
-    oidcIssuerUrl: "https://dex-jx.{{ .Requirements.ingress.domain }}"
+    oidcIssuerUrl: "https://dex{{ .Requirements.ingress.namespaceSubDomain }}{{ .Requirements.ingress.domain }}"
 
 {{- if .Requirements.autoUpdate }}
 autoUpdate:
