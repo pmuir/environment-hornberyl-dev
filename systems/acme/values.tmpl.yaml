@@ -28,5 +28,5 @@ certmanager:
 additionalSolvers:
 - domains:
   - "dashboard.{{ $rootDomain }}"
-  - "dex-{{ $namespaceSubDomain }}.{{ $rootDomain }}"
+  - "dex{{ $namespaceSubDomain }}{{ $rootDomain }}"
   projectID: staging-arcalos-domain-name
