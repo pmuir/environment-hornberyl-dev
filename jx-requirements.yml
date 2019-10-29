@@ -12,8 +12,6 @@ cluster:
   gitName: github
   gitPublic: true
   gitServer: https://github.com
-  gke:
-    projectNumber: "603585481021"
   kanikoSAName: hornberyl-ko
   namespace: jx
   project: aps-hornberyl
