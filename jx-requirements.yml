@@ -53,8 +53,7 @@ environments:
 gitops: true
 ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
-  domain: aps-hornberyl.jxaas.dev
-  domainIssuerURL: https://jx-tenant-service-jx.aps-lordlemon.jxaas.io
+  domain: aps-hornberyl.staging-jxaas.live
   externalDNS: true
   namespaceSubDomain: -jx.
   tls:
