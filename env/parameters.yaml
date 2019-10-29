@@ -6,8 +6,8 @@ dashboardAuthOrg: arcalos-dashboard
 dashboardAuthSecret: vault:hornberyl:dashboardAuthSecret
 dashboardGrpchost: dex.jx
 enableDocker: false
-parentDNSZone: jxaas-club-parent
-parentDomain: jxaas.club
+parentDNSZone: staging-jxaas-live-parent
+parentDomain: staging-jxaas.live
 parentProject: staging-arcalos-domain-name
 pipelineUser:
   email: arcalos-admin@googlegroups.com
